@@ -8,6 +8,12 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.section-features {
+  padding-top: 50px;
+}
+.container-btn {
+  margin-bottom: 50px;
+}
 
 .container{
   width: 1200px;
@@ -16,7 +22,9 @@ body {
   padding-right: 15px;
   
 }
-
+header {
+border: 1px solid #ECECEC;
+}
 
 ul{
   margin: 0;
@@ -59,7 +67,6 @@ ul{
   text-decoration: none;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  margin-top: 24px;
   margin-right: 94px;
 }
 
@@ -278,6 +285,9 @@ address {
 .address-item{
   padding-left: 0px;
   margin-top: 20px;
+}
+.ftr-nav-link {
+  margin-bottom: 9px;
 }
 
 .address-link {
