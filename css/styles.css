@@ -8,9 +8,11 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
 .section-features {
-  padding-top: 50px;
+  padding-top: 94px;
 }
+
 .container-btn {
   margin-bottom: 50px;
 }
@@ -23,7 +25,10 @@ body {
   
 }
 header {
-border: 1px solid #ECECEC;
+padding-bottom: 25px;
+/* padding-top: 25px; */
+align-items: center;
+border-bottom: 1px solid #ECECEC;
 }
 
 ul{
@@ -35,12 +40,11 @@ ul{
 .header-flex{
   display: flex;
   align-items: center;
-  padding-bottom: 25px;
+  
 }
 .nav-flex {
   display: flex;
   align-items: center;
- 
 }
 
 .nav-link-flex{
@@ -68,6 +72,7 @@ ul{
   line-height: 1.19;
   letter-spacing: 0.03em;
   margin-right: 94px;
+  padding-top: 24px;
 }
 
 .logo-word {
@@ -127,7 +132,6 @@ ul{
 }
 
 .design-title {
-
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
@@ -135,7 +139,7 @@ ul{
   text-transform: uppercase;
   line-height: 1.36;
   letter-spacing: 0.06em;
- text-align: center;
+  text-align: center;
   
 }
 
@@ -153,7 +157,6 @@ ul{
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   margin-top: 30px;
- 
 }
 
 .button-name:focus {
@@ -175,11 +178,13 @@ ul{
 
 .work-flex{
     display: flex;
-
     margin: 0px;
     padding: 0px;
 }
 
+.work-flex-item {
+  margin-right: 30px;
+}
 .work-title {
   width: 270px;
   color: #212121;
@@ -322,7 +327,9 @@ border-bottom: 1px solid #ECECEC;
   justify-content: center;
 
 }
-
+.btn-item {
+  margin-right: 8px;  
+}
 
 .list-button-name {
   font-family: Roboto;
@@ -333,7 +340,7 @@ border-bottom: 1px solid #ECECEC;
   cursor: pointer;
   line-height: 1.62;
   letter-spacing: 0.03em;
-  margin-right: 8px;
+
   border-radius: 4px;
   padding: 6px 22px 6px 22px;
 
@@ -352,17 +359,29 @@ border-bottom: 1px solid #ECECEC;
   display: flex;
   flex-wrap: wrap;
   padding: 0px;
-}
+  justify-content: space-between;
+  }
 
 .projects-item{
-  border: 1px solid #EEEEEE;
-  margin-right: 30px;
+  /* border: 1px solid #EEEEEE; */
   margin-bottom: 30px
+  
 }
 
 .projects-item:nth-child(3n){
   margin-right: 0px;
 }
+
+.project-explanation {
+  padding: 20px 24px ;
+  border: 1px solid #EEEEEE;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
 
 .projects-name {
   color: #212121;
@@ -370,7 +389,7 @@ border-bottom: 1px solid #ECECEC;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin: 20px 0px 0px 24px;
+  margin: 0;
 }
 
 .projects-type {
@@ -379,6 +398,6 @@ border-bottom: 1px solid #ECECEC;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  margin: 4px 0px 20px 24px;
+  margin: 0;
 }
 
