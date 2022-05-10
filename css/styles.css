@@ -111,7 +111,6 @@ ul{
   line-height: 1.14;
   letter-spacing: 0.02em;
   margin-right: 50px;
- 
 }
 
 .mail-tel-link:last-child {
@@ -209,6 +208,7 @@ ul{
 
 }
 
+
 .work-team-item {
   color: #212121;
   font-weight: 700;
@@ -260,8 +260,9 @@ ul{
   line-height: 1.18;
   letter-spacing: 0.03em;
   text-align: center;
-  margin: 30px 0px 10px 0px;
-}
+  margin: 0;
+  padding-bottom: 10px;
+  }
 
 .work-position {
   color: #757575;
@@ -270,9 +271,12 @@ ul{
   line-height: 1.18;
   letter-spacing: 0.03em;
   text-align: center;
-  margin-bottom: 30px;
-}
+  margin: 0;
+  }
 
+  .work-box {
+  padding: 30px 0px 30px 0px;
+  }
 .section-ftr {
   background-color: #2f303a;
   padding-top: 60px;
@@ -359,14 +363,18 @@ border-bottom: 1px solid #ECECEC;
   display: flex;
   flex-wrap: wrap;
   padding: 0px;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   }
 
 .projects-item{
   /* border: 1px solid #EEEEEE; */
-  margin-bottom: 30px
+  margin: 0px 30px 30px 0px;
   
 }
+.projects-item:nth-last-child(-n+3) {
+margin-bottom: 0;
+}
+
 
 .projects-item:nth-child(3n){
   margin-right: 0px;
@@ -389,7 +397,7 @@ border-bottom: 1px solid #ECECEC;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin: 0;
+  margin: 0px 0px 4px 0px;
 }
 
 .projects-type {
