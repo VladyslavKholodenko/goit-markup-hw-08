@@ -25,7 +25,7 @@ body {
   
 }
 header {
-padding-bottom: 25px;
+/* padding-bottom: 25px; */
 /* padding-top: 25px; */
 align-items: center;
 border-bottom: 1px solid #ECECEC;
@@ -50,8 +50,8 @@ ul{
 .nav-link-flex{
     display: flex;
     flex-direction: row;
-    margin-top: 32px;
-    margin-right: 331px;
+    /* margin-top: 32px; */
+    /* margin-right: 331px; */
 }
 
 
@@ -59,7 +59,8 @@ ul{
 .mail-tel-flex{
       display: flex;
       flex-direction: row;
-      margin-top: 32px;
+      /* margin-top: 32px; */
+      margin-left: auto;
 }
 
 .logo {
@@ -88,7 +89,10 @@ ul{
   line-height: 1.14;
   letter-spacing: 0.02em;
   margin-right: 50px;
-  
+  display: flex;
+  align-items: center;
+  /* padding-top: 32px;
+  padding-bottom: 32px; */
 }
 
 
@@ -102,8 +106,10 @@ ul{
 .nav-link:focus {
   color: #2196f3;
 }
-
 .mail-tel-link {
+margin-right: 30px;
+}
+.mail-tel-root {
   font-weight: 500;
   font-size: 14px;
   color: #757575;
@@ -111,14 +117,18 @@ ul{
   line-height: 1.14;
   letter-spacing: 0.02em;
   margin-right: 50px;
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
-.mail-tel-link:last-child {
+.mail-tel-root:last-child {
   margin-right: 0px;
 }
 
-.mail-tel-link:hover,
-.mail-tel-link:focus {
+.mail-tel-root:hover,
+.mail-tel-root:focus {
   color: #2196f3;
 }
 
@@ -271,7 +281,7 @@ ul{
   line-height: 1.18;
   letter-spacing: 0.03em;
   text-align: center;
-  margin: 0;
+  margin: 0px 0px 16px 0px;
   }
 
   .work-box {
@@ -409,3 +419,117 @@ margin-bottom: 0;
   margin: 0;
 }
 
+
+
+/* SVG-icons */
+.icon-envelope, .icon-smartphone {
+fill: #757575;
+margin-right: 10px;
+}
+/* .icon-envelope:hover, .icon-smartphone:hover {
+fill: #2196f3;
+} */
+
+.section-features-sm {
+width: 270px;
+height: 120px;
+background-color: #F5F4FA;
+box-sizing: border-box;
+border-radius: 4px;
+margin-bottom: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.features-sm-item {
+  width: 70px;
+  height: 70px;
+}
+
+.socials {
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.icon-social {
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  color: #AFB1B8;
+  background-color: #FFFFFF
+  
+  
+}
+.icon-social:hover {
+  color: #FFFFFF;
+  background-color: #2196f3;
+}
+
+.socials-flex {
+margin-right: 10px;
+}
+.content-sm {
+fill: currentColor;
+}
+.content-sm:hover {
+fill: #FFFFFF;
+}
+
+
+.company-box {
+display: flex;
+}
+.company-box .icons:not(:first-child) {
+margin-left: 30px;
+}
+.icon-logo {
+fill: currentColor;
+}
+/* .icon-logo:hover {
+fill: #2196f3;
+} */
+.logo-border {
+height: 90px;
+width: 170px;
+color: #afb1b8;
+border: 1px solid;
+border-radius: 4px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.logo-border:hover {
+color: #2196f3;
+}
+.info-box {
+  margin-right: 70px;
+}
+.footer-box {
+display: flex;
+align-items: baseline;
+padding-top: 48px;
+padding-bottom: 28px;
+border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.subscribe {
+display: block;
+margin-bottom: 21px;
+color: #FFFFFF;
+font-weight: 700;  
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.join-box .icon-social {
+color: #FFFFFF;
+background-color: rgba(255, 255, 255, 0.1);
+}
+
+.join-box .icon-social:hover,
+.join-box .icon-social:focus {
+background-color: #2196f3;}

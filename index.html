@@ -12,20 +12,27 @@
         <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header >
+    <header>
         <div class="container">
             <div class="header-flex">
                 <nav class="nav-flex">
                     <a href="./index.html" class="logo"> <span class="logo-word">Web</span>Studio</a>
                     <ul class="nav-link-flex">
-                        <li class="nav-link" ><a class="nav-link" href="./index.html">Студия</a></li>
-                        <li class="nav-link" ><a class="nav-link" href="./portfolio.html">Портфолио</a></li>
-                        <li class="nav-link" ><a class="nav-link" href="#">Контакты</a></li>
+                        <li class="nav-link" ><a href="./index.html" class="nav-link">Студия</a></li>
+                        <li class="nav-link" ><a href="./portfolio.html" class="nav-link">Портфолио</a></li>
+                        <li class="nav-link" ><a href="#" class="nav-link">Контакты</a></li>
                     </ul>
                 </nav>
                     <ul class="mail-tel-flex" >
-                        <li class="mail-tel-link"><a class="mail-tel-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                        <li class="mail-tel-link"><a class="mail-tel-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                        <li class="mail-tel-link"><a href="mailto:info@devstudio.com" class="mail-tel-root"> 
+                            <svg class="icon-envelope" width="16px" height="12px">
+                            <use href="./images/icons.svg#icon-letter"></use>
+                        </svg> info@devstudio.com</a></li>
+                        <li class="mail-tel-link"><a href="tel:+380961111111" class="mail-tel-root">
+                            <svg class="icon-smartphone" width="10px" height="16px">
+                                <use href="./images/icons.svg#icon-phone"></use>
+                            </svg>
+                            +38 096 111 11 11</a></li>
                     </ul>
             </div>
         </div>
@@ -44,18 +51,34 @@
         <h2 class="visually-hidden">Oсобенности</h2>
         <ul class="work-flex">
             <li>
+                <div class="section-features-sm">
+                    <svg class="features-sm-item">
+                        <use href="./images/icons.svg#icon-satellite"></use></svg>
+                </div>
                 <h3 class="work-title">Внимание к деталям</h3>
                 <p class="work-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
             </li>
             <li>
+                <div class="section-features-sm">
+                    <svg class="features-sm-item">
+                        <use href="./images/icons.svg#icon-clock"></use></svg>
+                </div>
                 <h3 class="work-title">Пунктуальность</h3>
                 <p class="work-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
             </li>
             <li>
+                <div class="section-features-sm">
+                    <svg class="features-sm-item">
+                        <use href="./images/icons.svg#icon-diagram"></use></svg>
+                </div>
                 <h3 class="work-title">Планирование</h3>
                 <p class="work-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
             </li>
             <li>
+                <div class="section-features-sm">
+                    <svg class="features-sm-item">
+                        <use href="./images/icons.svg#icon-astronaut"></use></svg>
+                </div>
                 <h3 class="work-title">Современные технологии</h3>
                 <p class="work-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
             </li>
@@ -83,6 +106,36 @@
                             <div class="work-box">
                                 <h3 class="work-team-name">Игорь Демьяненко</h3>
                                 <p class="work-position">Product Designer</p>
+                                <ul class="socials">
+                                    <li class="socials-flex">
+                                        <a href="#" aria-label="Ссылка на instagram" class="icon-social">
+                                            <svg class="content-sm" width="20" heigth="20">
+                                                <use href="./images/icons.svg#icon-insta"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="socials-flex">
+                                        <a href="#" aria-label="Ссылка на Твиттер" class="icon-social">
+                                            <svg class="content-sm" width="20" heigth="20">
+                                                <use href="./images/icons.svg#icon-twitter"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="socials-flex">
+                                        <a href="#" aria-label="Ссылка на Фейсбук" class="icon-social">
+                                            <svg class="content-sm" width="20" heigth="20">
+                                                <use href="./images/icons.svg#icon-facebook"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="socials-flex">
+                                        <a href="#" aria-label="Ссылка на Линкедин" class="icon-social">
+                                            <svg class="content-sm" width="20" heigth="20">
+                                                <use href="./images/icons.svg#icon-linkedin"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                         </li>
                         <li class="work-flex-item">
@@ -90,6 +143,36 @@
                             <div class="work-box">
                                 <h3 class="work-team-name">Ольга Репина</h3>
                                 <p class="work-position">Frontend Developer</p>
+                                <ul class="socials">
+                                    <li class="socials-flex">
+                                        <a href="#" aria-label="Ссылка на instagram" class="icon-social">
+                                            <svg class="content-sm" width="20" heigth="20">
+                                                <use href="./images/icons.svg#icon-insta"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="socials-flex">
+                                        <a href="#" aria-label="Ссылка на Твиттер" class="icon-social">
+                                            <svg class="content-sm" width="20" heigth="20">
+                                                <use href="./images/icons.svg#icon-twitter"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="socials-flex">
+                                        <a href="#" aria-label="Ссылка на Фейсбук" class="icon-social">
+                                            <svg class="content-sm" width="20" heigth="20">
+                                                <use href="./images/icons.svg#icon-facebook"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="socials-flex">
+                                        <a href="#" aria-label="Ссылка на Линкедин" class="icon-social">
+                                            <svg class="content-sm" width="20" heigth="20">
+                                                <use href="./images/icons.svg#icon-linkedin"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                         </li>
                         <li class="work-flex-item">
@@ -97,6 +180,36 @@
                             <div class="work-box">
                                 <h3 class="work-team-name">Николай Тарасов</h3>
                                 <p class="work-position">Marketing</p>
+                                <ul class="socials">
+                                    <li class="socials-flex">
+                                        <a href="#" aria-label="Ссылка на instagram" class="icon-social">
+                                            <svg class="content-sm" width="20" heigth="20">
+                                                <use href="./images/icons.svg#icon-insta"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="socials-flex">
+                                        <a href="#" aria-label="Ссылка на Твиттер" class="icon-social">
+                                            <svg class="content-sm" width="20" heigth="20">
+                                                <use href="./images/icons.svg#icon-twitter"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="socials-flex">
+                                        <a href="#" aria-label="Ссылка на Фейсбук" class="icon-social">
+                                            <svg class="content-sm" width="20" heigth="20">
+                                                <use href="./images/icons.svg#icon-facebook"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="socials-flex">
+                                        <a href="#" aria-label="Ссылка на Линкедин" class="icon-social">
+                                            <svg class="content-sm" width="20" heigth="20">
+                                                <use href="./images/icons.svg#icon-linkedin"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                         </li>
                         <li class="work-flex-item">
@@ -104,24 +217,136 @@
                             <div class="work-box">
                                 <h3 class="work-team-name">Михаил Ермаков</h3>
                                 <p class="work-position">UI Designer</p>
-                            </div>
-                        </li>
-                    </ul>
+                                <ul class="socials">
+                                    <li class="socials-flex">
+                                        <a href="#" aria-label="Ссылка на instagram" class="icon-social">
+                                            <svg class="content-sm" width="20" heigth="20">
+                                                <use href="./images/icons.svg#icon-insta"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="socials-flex">
+                                        <a href="#" aria-label="Ссылка на Твиттер" class="icon-social">
+                                            <svg class="content-sm" width="20" heigth="20">
+                                                <use href="./images/icons.svg#icon-twitter"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="socials-flex">
+                                        <a href="#" aria-label="Ссылка на Фейсбук" class="icon-social">
+                                            <svg class="content-sm" width="20" heigth="20">
+                                                <use href="./images/icons.svg#icon-facebook"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="socials-flex">
+                                        <a href="#" aria-label="Ссылка на Линкедин" class="icon-social">
+                                            <svg class="content-sm" width="20" heigth="20">
+                                                <use href="./images/icons.svg#icon-linkedin"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <h2 class="our-team-item">Постоянные клиенты</h2>
+                    <ul class="company-box list">
+                <li class="icons">
+                    <a href="#" class="logo-border">
+                        <svg class="icon-logo" width="46.7" height="41">
+                            <use href="./images/icons.svg#icon-group-1"></use>
+                    </svg>
+                    </a>
+                </li>
+                <li class="icons">
+                    <a href="#" class="logo-border">
+                        <svg class="icon-logo" width="40" height="52">
+                            <use href="./images/icons.svg#icon-group-2"></use>
+                    </svg>
+                    </a>
+                </li>
+                <li class="icons">
+                    <a href="#" class="logo-border">
+                        <svg class="icon-logo" width="43.46" height="41.18">
+                            <use href="./images/icons.svg#icon-group-3"></use>
+                    </svg>
+                    </a>
+                </li>
+                <li class="icons">
+                    <a href="#" class="logo-border">
+                        <svg class="icon-logo" width="84.44" height="40.62">
+                            <use href="./images/icons.svg#icon-group-4"></use>
+                    </svg>
+                    </a>
+                </li>
+                <li class="icons">
+                    <a href="#" class="logo-border">
+                        <svg class="icon-logo" width="62.54" height="45.43">
+                            <use href="./images/icons.svg#icon-group-5"></use>
+                    </svg>
+                    </a>
+                </li>
+                <li class="icons">
+                    <a href="#" class="logo-border">
+                        <svg class="icon-logo" width="93.79" height="43.93">
+                            <use href="./images/icons.svg#icon-group-6"></use>
+                    </svg>
+                    </a>
+                </li>
+            </ul>
             </div>
         </section>
     </main>
     <footer class="section-ftr" >
         <div class="container">
-                <a href="./index.html" class="logo">
-                    <span class="logo-word">Web</span><span class="logo-word-ftr">Studio</span>
-                </a>
-            <address>
-                <ul class="address-item">
-                    <li class="ftr-nav-link"><a class="address-link" href="https://goo.gl/maps/XUz9GN1uXCyKH9LT6">г. Киев, пр-т Леси Украинки, 26</a></li>
-                    <li class="ftr-nav-link"><a class="mail-tel-ftr" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li class="ftr-nav-link"><a class="mail-tel-ftr" href="tel:+380961111111">+38 096 111 11 11</a></li>
-                </ul>
-            </address>
+<div class="footer-box">
+    <div class="info-box">
+        <a href="./index.html" class="logo">
+            <span class="logo-word">Web</span><span class="logo-word-ftr">Studio</span></a>
+                <address>
+                    <ul class="address-item">
+                        <li class="ftr-nav-link"><a class="address-link" href="https://goo.gl/maps/XUz9GN1uXCyKH9LT6">г. Киев, пр-т Леси Украинки, 26</a></li>
+                        <li class="ftr-nav-link"><a class="mail-tel-ftr" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                        <li class="ftr-nav-link"><a class="mail-tel-ftr" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                    </ul>
+                </address>
+    </div>
+        <div class="join-box">
+            <b class="subscribe">присоединяйтесь</b>
+            <ul class="socials list">
+                <li class="socials-flex">
+                    <a href="#" aria-label="Ссылка на instagram" class="icon-social">
+                        <svg class="content-sm" width="20" heigth="20">
+                            <use href="./images/icons.svg#icon-insta"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="socials-flex">
+                    <a href="#" aria-label="Ссылка на Твиттер" class="icon-social">
+                        <svg class="content-sm" width="20" heigth="20">
+                            <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="socials-flex">
+                    <a href="#" aria-label="Ссылка на Фейсбук" class="icon-social">
+                        <svg class="content-sm" width="20" heigth="20">
+                            <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="socials-flex">
+                    <a href="#" aria-label="Ссылка на Линкедин" class="icon-social">
+                        <svg class="content-sm" width="20" heigth="20">
+                            <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
         </div>
+</div>
+            </div>
     </footer>
-</bodmail-tel-link
+</body>
