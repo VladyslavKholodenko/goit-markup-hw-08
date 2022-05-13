@@ -133,11 +133,26 @@ margin-right: 30px;
 }
 
 .hero {
-  background-color: #2f303a;
+  /* background-color: #2f303a; */
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
   
+}
+.overlay {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1600px;
+  height: 600px;
+  background-color: rgba(47, 48, 58, 0.8);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .design-title {
@@ -228,6 +243,11 @@ margin-right: 30px;
   letter-spacing: 0.03em;
   margin-top: 0px;
   margin-bottom: 50px;
+}
+.work-flex .work-flex-item {
+background: #FFFFFF;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
 }
 
 .work-foto-item{
@@ -363,6 +383,7 @@ border-bottom: 1px solid #ECECEC;
 .list-button-name:hover {
   background-color: #2196f3;
   color: #ffffff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .list-button-name:focus {
@@ -381,6 +402,11 @@ border-bottom: 1px solid #ECECEC;
   margin: 0px 30px 30px 0px;
   
 }
+
+.projects-flex .projects-item:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .projects-item:nth-last-child(-n+3) {
 margin-bottom: 0;
 }
@@ -423,7 +449,7 @@ margin-bottom: 0;
 
 /* SVG-icons */
 .icon-envelope, .icon-smartphone {
-fill: #757575;
+fill: currentColor;
 margin-right: 10px;
 }
 /* .icon-envelope:hover, .icon-smartphone:hover {
