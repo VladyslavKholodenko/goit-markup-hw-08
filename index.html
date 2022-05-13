@@ -18,7 +18,7 @@
                 <nav class="nav-flex">
                     <a href="./index.html" class="logo"> <span class="logo-word">Web</span>Studio</a>
                     <ul class="nav-link-flex">
-                        <li class="nav-link" ><a href="./index.html" class="nav-link">Студия</a></li>
+                        <li class="nav-link" ><a href="./index.html" class="nav-link current">Студия</a></li>
                         <li class="nav-link" ><a href="./portfolio.html" class="nav-link">Портфолио</a></li>
                         <li class="nav-link" ><a href="#" class="nav-link">Контакты</a></li>
                     </ul>
@@ -43,7 +43,7 @@
     <section class="hero">
         <div class="container">
             <h1 class="design-title">Эффективные решения <br>для вашего бизнеса</h1>
-                <button type="button" class="button-name">Заказать услугу</button>
+            <button type="button" class="button-name" data-modal-open>Заказать услугу</button>
         </div>
     </section>
 </div>
@@ -92,9 +92,12 @@
 <div class="container">
     <h2 class="our-team-item">Чем мы занимаемся</h2>
     <ul class="work-flex">
-        <li class="work-foto-item"><img src="./images/image1.jpg" alt="RVS" width="370"></li>
-        <li class="work-foto-item"> <img src="./images/image2.png" alt="VM8" width="370"></li>
-        <li class="work-foto-item"><img src="./images/image3.png" alt="RY" width="370"></li>
+        <li class="work-foto-item"><img src="./images/image1.jpg" alt="RVS" width="370">
+        <p class="item-foto-text">Десктопные приложения</p></li>
+        <li class="work-foto-item"> <img src="./images/image2.png" alt="VM8" width="370">
+        <p class="item-foto-text">Десктопные приложения</p></li>
+        <li class="work-foto-item"><img src="./images/image3.png" alt="RY" width="370">
+        <p class="item-foto-text">Десктопные приложения</p></li>
     </ul>
 </div>
 </section>
@@ -351,4 +354,16 @@
 </div>
             </div>
     </footer>
+
+    <div class="backdrop is-hidden" data-modal >
+        <div class="modal">
+            <button type="button" class="close-btn" data-modal-close>  
+                <svg class="icon-close">
+                    <use href="./images/icons.svg#icon-Vector"> </use>
+                </svg>
+            </button>
+        </div>
+    </div>
+    
+    <script src="./js/modal.js"></script>
 </body>
