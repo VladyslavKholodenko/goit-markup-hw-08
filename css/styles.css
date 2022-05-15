@@ -607,10 +607,11 @@ border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 .subscribe {
 display: block;
-margin-bottom: 21px;
+margin-bottom: 20px;
 color: #FFFFFF;
 font-weight: 700;  
 line-height: 1.14;
+font-size: 14px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
@@ -708,3 +709,42 @@ background-color: #2196f3;
     height: 11px;
     display: block;
   }
+
+.ftr-form-field{
+display: flex;
+}
+
+.sub-input{
+height: 50px ;
+width: 358px;
+background-color: #2F303A;
+border-color: rgba(255, 255, 255, 0.3) ;
+border-radius: 4px;
+padding: 0px 16px;
+color: #FFFFFF;
+}
+.sub-button{
+display: flex;
+justify-content: center;
+min-width: 200px;
+background-color: #2196f3;
+color: #ffffff;
+font-weight: 700;
+font-size: 16px;
+cursor: pointer;
+line-height: 1.87;
+letter-spacing: 0.06em;
+border-radius: 4px;
+margin-left: 12px;
+padding: 10px;
+border: none;
+}
+
+.sub-icon{
+fill: #f5f4fa;
+transform: translateY(4px) translateX(10px);
+}
+
+.ftr-subscription-box {
+margin-left: auto;
+}
