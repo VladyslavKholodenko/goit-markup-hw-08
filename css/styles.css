@@ -249,7 +249,7 @@ margin-right: 30px;
 .work-flex-item {
   margin-right: 30px;
 }
-.work-title {
+.features-box__title {
   width: 270px;
   color: #212121;
   font-weight: 700;
@@ -260,7 +260,7 @@ margin-right: 30px;
   margin: 0px;
 }
 
-.work-text {
+.features-box__text {
   width: 270px;
   color: #757575;
   font-weight: 400;
@@ -520,7 +520,7 @@ margin-right: 10px;
 fill: #2196f3;
 } */
 
-.section-features-sm {
+.features-box {
 width: 270px;
 height: 120px;
 background-color: #F5F4FA;
@@ -531,7 +531,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
-.features-sm-item {
+.features-box__item {
   width: 70px;
   height: 70px;
 }
