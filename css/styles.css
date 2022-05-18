@@ -194,7 +194,7 @@ margin-right: 30px;
   background-position: center;
 }
 
-.design-title {
+.hero__title {
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
@@ -206,7 +206,7 @@ margin-right: 30px;
   
 }
 
-.button-name {
+.hero__button {
   font-family: Roboto;
   width: 200px;
   height: 50px;
@@ -223,7 +223,7 @@ margin-right: 30px;
   border: 0;
 }
 
-.button-name:focus {
+.hero__button:focus {
   color: #ffffff;
 }
 
