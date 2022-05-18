@@ -357,10 +357,10 @@
                     <div class="ftr-subscription-box">
                         <p class="subscribe">подпишитесь на рассылку</p>
                         <form>
-                            <div class="ftr-form-field">
-                                <input class="sub-input" name="Email" type="text" placeholder="E-mail" >
-                                <button class="sub-button" type="submit">Подписаться
-                                    <svg class="sub-icon" width="24" height="24">
+                            <div class="sub-form">
+                                <input class="sub-form__item" name="Email" type="text" placeholder="E-mail" >
+                                <button class="sub-form__button" type="submit">Подписаться
+                                    <svg class="sub-form__icon" width="24" height="24">
                                         <use href="images/symbol-defs.svg#icon-send"></use>
                                     </svg>
                                 </button>
@@ -376,40 +376,40 @@
     <div class="backdrop is-hidden" data-modal >
         <div class="modal">
             <button type="button" class="close-btn" data-modal-close>  
-                <svg class="icon-close">
+                <svg class="close-btn__icon">
                     <use href="./images/icons.svg#icon-Vector"> </use>
                 </svg>
             </button>
             <form class="modal-form">
                 <h3 class="form-title">Оставьте свои данные, мы вам перезвоним</h3>
-                <div class="field">
-                    <label class="form-label" for="name">Имя</label>
-                        <input class="form-input" id="name" type="text" >
-                            <svg class="icon" width="12" height="12">
+                <div class="form-field">
+                    <label class="form-field__label" for="name">Имя</label>
+                        <input class="form-field__input" id="name" type="text" >
+                            <svg class="form-field__icon" width="12" height="12">
                                 <use href="./images/sprite.svg#icon-person"></use>
                             </svg>
                 </div>
-                <div class="field">
-                    <label class="form-label" for="tel">Телефон</label>
-                        <input class="form-input" id="tel" type="tel" >
-                        <svg class="icon" width="12" height="12">
+                <div class="form-field">
+                    <label class="form-field__label" for="tel">Телефон</label>
+                        <input class="form-field__input" id="tel" type="tel" >
+                        <svg class="form-field__icon" width="12" height="12">
                             <use href="./images/sprite.svg#icon-phone2"></use>
                         </svg>
                 </div>
-                <div class="field">
-                    <label class="form-label" for="mail">Почта</label>
-                        <input class="form-input" id="mail" type="mail" >
-                        <svg class="icon" width="15" height="12">
+                <div class="form-field">
+                    <label class="form-field__label" for="mail">Почта</label>
+                        <input class="form-field__input" id="mail" type="mail" >
+                        <svg class="form-field__icon" width="15" height="12">
                             <use href="./images/sprite.svg#icon-envelope2"></use>
                         </svg>
                 </div>
-                <div class="field">
-                    <label class="form-label" for="comment">Комментарий</label>
-                        <textarea class="form-input comment" name="comment" id="comment" cols="30" rows="5" placeholder="Введите текст"></textarea>
+                <div class="form-field">
+                    <label class="form-field__label" for="comment">Комментарий</label>
+                        <textarea class="form-field__input comment" name="comment" id="comment" cols="30" rows="5" placeholder="Введите текст"></textarea>
                 </div>
                 <div class="licence">
-                    <label class="licence-label" for="checkbox">
-                    <input class="licence-input" type="checkbox" id="checkbox">
+                    <label class="licence__label" for="checkbox">
+                    <input class="licence__input" type="checkbox" id="checkbox">
                         <span class="form"></span>Соглашаюсь с рассылкой и принимаю
                         <a href="#">Условия договора</a>
                     </label>
