@@ -385,15 +385,15 @@ address {
   font-style: normal;
 }
 
-.address-item{
+.address-list {
   padding-left: 0px;
   margin-top: 20px;
 }
-.ftr-nav-link {
+.address-list__item {
   margin-bottom: 9px;
 }
 
-.address-link {
+.address-list__link {
   color: #ffffff;
   font-weight: 400;
   font-size: 14px;
@@ -402,17 +402,20 @@ address {
   letter-spacing: 0.03em;
 }
 
-.address-link:hover {
+.address-list__link:hover {
   color: #2196f3;
 }
 
-.mail-tel-ftr {
+.address-list__contact {
   font-weight: 400;
   font-size: 14px;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+.address-list__contact:hover {
+  color: #2196f3;
 }
 
 .section-hdr{
