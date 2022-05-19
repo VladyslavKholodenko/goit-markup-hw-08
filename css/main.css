@@ -156,6 +156,19 @@ img {
   pointer-events: none;
 }
 
+.overlay {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1600px;
+  height: 600px;
+  background-color: rgba(47, 48, 58, 0.8);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/background.jpg");
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .logo {
   font-family: 'Raleway';
   font-style: normal;
@@ -325,19 +338,6 @@ img {
 
 .hero__button:focus {
   color: #FFFFFF;
-}
-
-.overlay {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1600px;
-  height: 600px;
-  background-color: rgba(47, 48, 58, 0.8);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../../images/background.jpg");
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 
 .features-box {
@@ -797,7 +797,7 @@ address {
 .licence__input:checked + .form {
   border-color: transparent;
   background-color: #2196f3;
-  background-image: url(../../images/icon-check.svg);
+  background-image: url(../images/icon-check.svg);
   background-size: contain;
   background-origin: border-box;
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
