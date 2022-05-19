@@ -1,0 +1,20 @@
+.subscribe {
+    display: block;
+    margin-bottom: 20px;
+    color: $white-color;
+    font-weight: 700;  
+    line-height: 1.14;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.join-box {
+    & .socials__link {
+    color: $white-color;
+    background-color: rgba(255, 255, 255, 0.1);
+    }
+    & .socials__link:hover,
+    & .socials__link:focus {
+    background-color: $accent-color;
+    }
+}

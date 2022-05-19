@@ -1,0 +1,115 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: $primary-color;
+    background-color: $white-color;
+}
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.section-features {
+    padding-top: 94px;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+header {
+    align-items: center;
+    border-bottom: 1px solid #ECECEC;
+}
+.section-hdr{
+    border-bottom: 1px solid #ECECEC;
+}
+.contact-list{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.header-flex{
+    display: flex;
+    align-items: center;
+}
+.our-team-item{
+    color: $primary-color;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+.socials__link {
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50px;
+    color: #AFB1B8;
+    background-color: $white-color;
+    &:hover {
+        color: $white-color;
+        background-color: $accent-color;
+    }
+}
+.socials__list {
+    margin-right: 10px;
+}
+.socials__icon {
+    fill: currentColor;
+    &:hover {
+        fill: $white-color;
+    }
+}
+.icon-envelope, 
+.icon-smartphone {
+    fill: currentColor;
+    margin-right: 10px;
+    }
+.container-btn {
+    margin-bottom: 50px;
+}
+.backdrop{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.2);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.backdrop.is-hidden{
+    opacity:0;
+    pointer-events: none;
+}

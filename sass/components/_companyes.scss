@@ -1,0 +1,22 @@
+.company-box {
+    display: flex;
+    & .icons:not(:first-child) {
+        margin-left: 30px;
+        }
+}
+.icon-logo {
+    fill: currentColor;
+}
+.logo-border {
+    height: 90px;
+    width: 170px;
+    color: #afb1b8;
+    border: 1px solid;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        &:hover {
+        color: $accent-color;
+        }
+}
