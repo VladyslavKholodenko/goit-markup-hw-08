@@ -4,7 +4,11 @@
 }
 .nav-list {
     display: flex;
-    flex-direction: row;
+    // flex-direction: row;
+    @media (max-width: 768px) {
+        display: none;
+    }
+    
 }
 .nav-list__link {
     position: relative;

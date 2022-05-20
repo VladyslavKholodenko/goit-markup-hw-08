@@ -1,5 +1,13 @@
+.section-features {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    @media (min-width: 1200px ) {
+        padding-top: 94px;
+    }
+
+}
 .features-box {
-    width: 270px;
+    
     height: 120px;
     background-color: #F5F4FA;
     box-sizing: border-box;
@@ -8,6 +16,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    @media (min-width: 1200px) {
+        width: 270px;
+    }
 }
 .features-box__item {
     width: 70px;

@@ -7,14 +7,19 @@ body {
     padding-top: 94px;
     padding-bottom: 94px;
 }
-.section-features {
-    padding-top: 94px;
-}
 .container{
-    width: 1200px;
-    margin: 0 auto;
+    max-width: 480px;
     padding-left: 15px;
     padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    @media (min-width: 768px) {
+        max-width: 768px;
+    }
+    @media (min-width: 1200px) {
+        max-width: 1200px;
+    }
 }
 header {
     align-items: center;
@@ -22,11 +27,6 @@ header {
 }
 .section-hdr{
     border-bottom: 1px solid #ECECEC;
-}
-.contact-list{
-    display: flex;
-    flex-direction: row;
-    margin-left: auto;
 }
 ul{
     margin: 0;

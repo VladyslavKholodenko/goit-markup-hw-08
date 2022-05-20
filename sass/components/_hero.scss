@@ -4,14 +4,19 @@
     padding-bottom: 200px;
 }
 .hero__title {
-    color: $white-color;
-    font-weight: 900;
-    font-size: 44px;
     margin: 0px;
-    text-transform: uppercase;
-    line-height: 1.36;
-    letter-spacing: 0.06em;
     text-align: center;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.61;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $white-color;
+
+        @media (min-width: 1200px) {
+            font-size: 44px;
+            line-height: 1.5;
+        }      
 }
 .hero__button {
     font-family: Roboto;
