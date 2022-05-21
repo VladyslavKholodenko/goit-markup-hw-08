@@ -1,6 +1,11 @@
 .nav-flex {
     display: flex;
     align-items: center;
+    & .logo {
+        @media (min-width: 1200px) {
+            margin-right: 94px;
+        }
+    }
 }
 .nav-list {
     display: flex;

@@ -25,7 +25,7 @@
     height: 70px;
 }
 .features-box__title {
-    width: 270px;
+    
     color: $primary-color;
     font-weight: 700;
     font-size: 14px;
@@ -33,9 +33,13 @@
     line-height: 1.17;
     letter-spacing: 0.03em;
     margin: 0px;
+    text-align: center;
+
+    @media (min-width: 768px) {
+        text-align: left;
+    }
 }
 .features-box__text {
-    width: 270px;
     color: $secondary-text-color;
     font-weight: 400;
     font-size: 14px;
@@ -43,5 +47,9 @@
     letter-spacing: 0.03em;
     margin-top: 10px;
     margin-bottom: 0px;
-    margin-right: 30px;
+    
+    @media (min-width: 768px) {
+        width: 270px;
+        margin-right: 30px;
+    }
 }

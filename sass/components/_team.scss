@@ -1,7 +1,11 @@
 .section-our-team{
     background-color: #F5F4FA;
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    @media (min-width: 1200px) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
 }
 .team-box {
     padding: 30px 0px 30px 0px;

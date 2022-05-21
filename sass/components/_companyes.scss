@@ -1,15 +1,33 @@
 .company-box {
     display: flex;
-    & .icons:not(:first-child) {
-        margin-left: 30px;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    & .icons {
+    width: 210px;
+
+
+    @media (min-width:768px) {
+                width: 226px;
+    }
         }
-}
+    @media (min-width :1200px) {
+            display: flex;
+            flex-wrap: nowrap;
+            gap: 0px;
+            
+                & .icons:not(:first-child) {
+                    margin-left: 30px;
+                }
+    }
+    }
+
 .icon-logo {
     fill: currentColor;
 }
 .logo-border {
     height: 90px;
-    width: 170px;
+    // width: 170px;
     color: #afb1b8;
     border: 1px solid;
     border-radius: 4px;
