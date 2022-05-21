@@ -7,6 +7,11 @@ address {
     padding-bottom: 60px;
 }
 .footer-box {
+    @media (min-width: 768px) and (max-width: 1199px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
     @media (min-width: 1200px) {
     display: flex;
     align-items: baseline;
@@ -15,6 +20,12 @@ address {
 .info-box {
     margin-bottom: 60px;
     text-align: center;
+
+    @media (min-width: 768px) and (max-width: 1199px) {
+        margin-right: 165px;
+        margin-bottom: 0;
+
+    }
 
     @media (min-width: 1200px) {
         width: 231px;
@@ -28,6 +39,9 @@ address {
 }
 .address-list__item {
     margin-bottom: 9px;
+    &:last-child {
+        margin-bottom: 0px;
+    }
 }
 .address-list__link {
     color: $white-color;

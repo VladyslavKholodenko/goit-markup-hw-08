@@ -1,8 +1,63 @@
 .hero {
     text-align: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 118px;
+    padding-bottom: 118px;
+    background-image:
+        linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../../images/mobileHero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+            background-image: 
+            linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+            url(../../images/mobileHero.jpg);
+       
+    }
+
+
+
+    @media (min-width: 768px) {
+        background-image:
+                linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+                url(../images/tabletHero.jpg);
+
+                @media  
+                    (min-device-pixel-ratio: 2),
+                    (min-resolution: 192dpi),
+                    (min-resolution: 2dppx) { 
+                            background-image: 
+                            linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+                            url(../images/tabletHero@2x.jpg);          
+                        }
+    }
+
+    @media (min-width: 1200px) {
+        max-width: 1600px;
+        height: 600px;
+        padding-top: 200px;
+        padding-bottom: 200px;
+        background-image:
+                linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+                url(../images/fototeam.jpg);
+
+                @media 
+                    (min-device-pixel-ratio: 2),
+                    (min-resolution: 192dpi),
+                    (min-resolution: 2dppx) {
+                            background-image: 
+                            linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+                            url(../images/fototeam@2x.jpg);
+                        }
+                    }
+
 }
+// Hero 
 .hero__title {
     margin: 0px;
     text-align: center;

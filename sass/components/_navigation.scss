@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     & .logo {
-        @media (min-width: 1200px) {
+        @media (min-width: 768px) {
             margin-right: 94px;
         }
     }
@@ -10,7 +10,7 @@
 .nav-list {
     display: flex;
     // flex-direction: row;
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
         display: none;
     }
     

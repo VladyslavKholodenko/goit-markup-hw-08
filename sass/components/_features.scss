@@ -4,7 +4,16 @@
     @media (min-width: 1200px ) {
         padding-top: 94px;
     }
-
+    & .work-flex {
+        @media (min-width: 768px) and (max-width: 1200px){
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            & li {
+                width: 354px;
+            }
+        }
+    }
 }
 .features-box {
     
@@ -16,6 +25,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    @media (min-width: 768px) {
+        max-width: 354px;
+    }
     @media (min-width: 1200px) {
         width: 270px;
     }
