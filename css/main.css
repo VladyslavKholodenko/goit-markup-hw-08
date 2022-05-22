@@ -1154,8 +1154,8 @@ address {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 528px;
-  height: 581px;
+  width: 450px;
+  height: 610px;
   background-color: #FFFFFF;
   border-radius: 4px;
 }
@@ -1170,6 +1170,13 @@ address {
           flex-direction: column;
   position: relative;
   margin-bottom: 10px;
+}
+
+@media (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    height: 581px;
+  }
 }
 
 .modal-form {
@@ -1270,7 +1277,12 @@ address {
   display: -ms-flexbox;
   display: flex;
   text-align: center;
-  margin-left: 12px;
+}
+
+@media (min-width: 1200px) {
+  .licence {
+    margin-left: 12px;
+  }
 }
 
 .licence .form {
@@ -1285,11 +1297,17 @@ address {
 
 .licence a {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #2196f3;
   margin-left: 5px;
+}
+
+@media (min-width: 1200px) {
+  .licence a {
+    font-size: 14px;
+  }
 }
 
 .licence__label {
@@ -1297,10 +1315,16 @@ address {
   display: -ms-flexbox;
   display: flex;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+@media (min-width: 1200px) {
+  .licence__label {
+    font-size: 14px;
+  }
 }
 
 .licence__input {
