@@ -1,8 +1,17 @@
 .work-flex{
-    
+    &.features {
+    @media (min-width: 1200px) {
+            gap: 30px;
+    }
+}
     & li {
-        
-        @MEDIA (min-width: 768px) and (max-width: 1200px) {
+        @media (max-width:767px) {
+            margin-bottom: 30px;
+            &:last-child {
+                margin-bottom: 0px;
+            }
+        }
+        @media (min-width: 768px) and (max-width: 1200px) {
             width: 354px;
         }
         
@@ -17,9 +26,9 @@
     }
     
         }
-        & li {
-            margin-bottom: 0px;
-        }
+        // & li {
+        //     margin-bottom: 0px;
+        // }
     @media (min-width :1200px) {
     display: flex;
     margin: 0px;
@@ -30,7 +39,7 @@
         margin-bottom: 30px;
         }
     }
-
+    
     }
 
     @media (min-width: 768px) and (max-width:1199px) {

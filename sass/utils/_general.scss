@@ -63,7 +63,17 @@ body {
         max-width: 1200px;
         
     }
-    
+    &.flex-features {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    &.flex-team {
+        @media (min-width: 768px) and (max-width: 1199px) {
+            max-width: 768px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
 }
 header {
     align-items: center;
@@ -107,11 +117,12 @@ img {
     line-height: 1.14;
     letter-spacing: 0.03em;
     margin-top: 0px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     
     @media (min-width: 1200px) {
         font-size: 36px;
         line-height: 1.16;
+        margin-bottom: 50px;
     }
 }
 .socials {
