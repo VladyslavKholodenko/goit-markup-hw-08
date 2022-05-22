@@ -35,6 +35,57 @@
                             </svg>
                             +38 096 111 11 11</a></li>
                     </ul>
+                    <button class="burger-menu" type="button" data-mob-nav-open >
+                        <svg  class="burger-menu__icon" aria-label="переключатель мобильного меню">
+                            <use href="./images/burger-sprite.svg#burger-menu-24px"></use>
+                        </svg>
+                    </button>
+                    <div class="mob-nav is-hidden" data-mob-nav>
+                        <button class="mob-nav__close-btn" type="button" data-mob-nav-close>
+                            <svg class="mob-nav__icon-close">
+                                <use href="./images/burger-sprite.svg#burger-close"></use>
+                            </svg>
+                        </button>
+                        <div class="mob-nav__box">
+                            <ul class="mob-nav__nav-list">
+                                <li class="mob-nav__item">
+                                    <a href="./index.html" class="mob-nav__link">Студия </a>
+                                </li>
+                                <li class="mob-nav__item">
+                                    <a href="./portfolio.html" class="mob-nav__link current">Портфолио </a>
+                                </li>
+                                <li class="mob-nav__item">
+                                    <a href="./" class="mob-nav__link">Контакты </a>
+                                </li>
+                            </ul>
+                            <ul class="mob-nav__contact-list">
+                                <li class="mob-nav__item">
+                                    <a href="tel:+380961111111" class="mob-nav__phone">
+                                        +38 096 111 11 11
+                                    </a>
+                                </li>
+                                <li class="mob-nav__item">
+                                    <a href="mailto:info@devstudio.com" class="mob-nav__mail">
+                                        info@devstudio.com
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="mob-nav__sm">
+                                <li class="mob-nav__sm-item">
+                                    <a href="#" class="mob-nav__social-link">Instagram</a>
+                                </li>
+                                <li class="mob-nav__sm-item">
+                                    <a href="#" class="mob-nav__social-link">Twitter</a>
+                                </li>
+                                <li class="mob-nav__sm-item">
+                                    <a href="#" class="mob-nav__social-link">Facebook</a>
+                                </li>
+                                <li class="mob-nav__sm-item">
+                                    <a href="#" class="mob-nav__social-link">Linkedin</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
             </div>
         </div>
 </header>
@@ -220,5 +271,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="./js/mob-nav.js"></script>
 </body>
 </html>
