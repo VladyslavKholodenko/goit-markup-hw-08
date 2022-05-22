@@ -11,6 +11,29 @@ body {
   padding-right: 15px;
 }
 
+.section.section-flex {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (max-width: 767px) {
+  .section.section-flex {
+    max-width: 480px;
+  }
+}
+
+@media (min-width: 768px) {
+  .section.section-flex {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .section.section-flex {
+    max-width: 1200px;
+  }
+}
+
 @media (min-width: 1200px) {
   .section {
     padding-top: 94px;
@@ -19,8 +42,15 @@ body {
 }
 
 .section .container {
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .section .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -28,6 +58,11 @@ body {
     padding-left: 15px;
     padding-right: 15px;
   }
+}
+
+.section-flex .container {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .container {
@@ -38,8 +73,10 @@ body {
   margin-right: auto;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1199px) {
   .container {
+    padding-left: 0;
+    padding-right: 0;
     max-width: 768px;
   }
 }
@@ -656,6 +693,7 @@ img {
 @media (min-width: 1200px) {
   .section-features {
     padding-top: 94px;
+    padding-bottom: 0;
   }
 }
 
@@ -1418,6 +1456,10 @@ address {
   border: 0;
   border-radius: 4px;
   padding: 6px 22px 6px 22px;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-flex__name:hover, .button-flex__name:focus {
@@ -1433,16 +1475,7 @@ address {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding-left: 15px;
-  padding-right: 15px;
   gap: 30px;
-}
-
-@media (min-width: 768px) {
-  .projects-flex {
-    padding-left: 0;
-    padding-right: 0;
-  }
 }
 
 .projects-flex .projects-item:hover {
@@ -1479,10 +1512,6 @@ address {
   .projects-item {
     width: 370px;
   }
-}
-
-.projects-item:last-child {
-  margin-bottom: 30px;
 }
 
 .project-explanation {
